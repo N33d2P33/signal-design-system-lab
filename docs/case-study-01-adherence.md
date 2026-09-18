@@ -20,4 +20,4 @@ Codex helped build the shared React implementation and the comparison interface.
 
 The published experience makes system guidance tangible and gives viewers a way to question the rubric. A next iteration would run the two prompts independently in clean branches and compare their unedited outputs before human correction.
 
-**Links to add in Framer:** live experience `/#experiment`; repository; selected Figma frames.
+**Portfolio links:** live experience `/#experiment`; repository; selected Figma frames.

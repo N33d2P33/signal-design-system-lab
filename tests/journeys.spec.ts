@@ -14,6 +14,10 @@ test('visitor can compare outputs and view the rubric', async ({ page }) => {
 
 test('visitor can explore prototype states', async ({ page }) => {
   await page.goto('/#studio')
+  await page.getByRole('textbox', { name: 'Email address' }).fill('invalid')
+  await page.getByRole('button', { name: 'Send invitation' }).click()
+  await expect(page.getByText('Enter a valid email address.')).toBeVisible()
+  await page.getByRole('textbox', { name: 'Email address' }).fill('alex@northstar.co')
   await page.getByRole('button', { name: 'Send invitation' }).click()
   await expect(page.getByText('Invitation sent')).toBeVisible()
   await page.getByRole('button', { name: 'Page banner' }).click()
@@ -27,7 +31,8 @@ test('visitor can decide on a contribution', async ({ page }) => {
   await expect(page.getByText('Invitation not sent')).toBeVisible()
   await page.getByRole('button', { name: 'Request revision' }).click()
   await expect(page.getByRole('dialog')).toBeVisible()
-  await page.getByRole('button', { name: 'Continue review' }).click()
+  await page.keyboard.press('Escape')
+  await expect(page.getByRole('dialog')).toBeHidden()
   await expect(page.getByText('Returned for revision')).toBeVisible()
 })
 

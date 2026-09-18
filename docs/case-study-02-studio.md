@@ -20,4 +20,4 @@ Codex implemented the interactive prototype from the system specification. I rev
 
 The studio gives visitors a concrete way to see system reuse rather than a static component gallery. Later, a live agent could assemble patterns from a richer brief while retaining the same human review points.
 
-**Links to add in Framer:** live experience `/#studio`; repository; selected Figma frames.
+**Portfolio links:** live experience `/#studio`; repository; selected Figma frames.

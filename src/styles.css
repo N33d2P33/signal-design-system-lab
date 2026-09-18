@@ -9,3 +9,4 @@
 .proposal-intro p,.proposal-meta span,.state-tabs button,.review-point p{color:#455468}
 .system-block p,.alert p{color:#455468}
 .dialog{border:0}.dialog::backdrop{background:#0b1c34a1}
+.simulation-note{font-size:10px;color:#455468;margin:20px 0 0}

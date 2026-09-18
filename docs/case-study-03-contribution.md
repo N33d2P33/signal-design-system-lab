@@ -20,4 +20,4 @@ Codex built the interactive states and decision flow. I reviewed the language an
 
 The experience demonstrates a human governance role in an agent-assisted system. A later version could save proposals, attach Figma and code evidence, and open a GitHub review after approval.
 
-**Links to add in Framer:** live experience `/#contribution`; repository; selected Figma frames.
+**Portfolio links:** live experience `/#contribution`; repository; selected Figma frames.
