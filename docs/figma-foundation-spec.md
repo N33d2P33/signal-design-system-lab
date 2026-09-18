@@ -2,6 +2,8 @@
 
 This is the exact design specification for a Figma library. It is also reflected in `src/styles.css` and the shared React components.
 
+An [importable visual board](signal-foundation-board.svg) accompanies this specification. It is a reference asset; native Figma components still need to be created in Figma.
+
 ## File structure
 
 1. **Foundations:** colour, typography, spacing, radius, and focus examples.
