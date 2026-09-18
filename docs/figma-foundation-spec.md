@@ -2,7 +2,7 @@
 
 This is the exact design specification for a Figma library. It is also reflected in `src/styles.css` and the shared React components.
 
-An [importable visual board](signal-foundation-board.svg) accompanies this specification. It is a reference asset; native Figma components still need to be created in Figma.
+An [importable visual board](signal-foundation-board.svg) accompanies this specification. It has also been placed in the [Signal Design System Lab — Foundations Figma file](https://www.figma.com/design/2MtZ9vwaEgSbSNhtFcbtWE/Signal-Design-System-Lab-%E2%80%94-Foundations) as editable vector and text layers. Native Figma components and variants still need to be created from these examples.
 
 ## File structure
 
@@ -42,4 +42,4 @@ Typography: Manrope for headings, DM Sans for interface copy; use system fallbac
 - Notification preferences: the same widths and shared components.
 - Contribution feedback: pending, success, and error states side by side.
 
-The Figma file itself still needs to be created or connected in the user's account. The local site and this handoff are the source material for that step.
+The Figma file is saved in the user's Drafts. The imported board and local site are the source material for creating reusable native Figma components and variants.

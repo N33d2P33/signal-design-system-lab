@@ -26,4 +26,4 @@ Connect this repository to Cloudflare Pages. Use `npm run build` as the build co
 
 The example outputs and scores are curated design-study material. There is no live AI call, account, database, or saved contribution state.
 
-The Figma specification and three portfolio case-study drafts are in `docs/`. The Figma file and external portfolio pages are not part of this repository.
+The [Figma foundation board](https://www.figma.com/design/2MtZ9vwaEgSbSNhtFcbtWE/Signal-Design-System-Lab-%E2%80%94-Foundations) contains editable vector and text layers. The specification and three portfolio case-study drafts are in `docs/`. Native Figma component variants remain to be built from the board; external portfolio pages are outside this repository.
